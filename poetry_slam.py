@@ -25,7 +25,7 @@ def lines_printed_backwards(lines_list):
     for i in range(lines_list_length): #changed the for loops to use index so we can have the nums
         current_line = lines_list_length[i]
         line_num = lines_list_length - i
-        print(f"{(line_num} {current_line}")
+        print(f"({line_num} {current_line})")
         
 
 
